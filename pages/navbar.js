@@ -1,36 +1,30 @@
+import Link from "next/link";
+
 const navbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar
+      <nav className="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
+            Tile World
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-              <a class="nav-link" href="#">
-                Features
-              </a>
-              <a class="nav-link" href="#">
-                Pricing
-              </a>
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
-                Disabled
-              </a>
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav">
+              <Link href="/">
+                <a className="nav-link active">Home</a>
+              </Link>
+              <Link href="./walltiles">
+                <a className="nav-link">Wall Tiles</a>
+              </Link>
+              <Link href="./subwaytiles">
+                <a className="nav-link">Subway Tiles</a>
+              </Link>
+              <Link href="./pooltiles">
+                <a className="nav-link">Pool Tiles</a>
+              </Link>
             </div>
           </div>
         </div>

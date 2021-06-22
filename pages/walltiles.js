@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Navbar from "./navbar";
+import Link from "next/link";
 
 export default function WallTiles() {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Head>
         <title>Wall Tiles</title>
         <link
@@ -16,12 +17,99 @@ export default function WallTiles() {
       </Head>
       <main>
         <Navbar />
-        <div className="container">
+        <div className="container mt-5">
           <p>
             Covering the walls with tile lately is not only specific to bathrooms. It is now
             frequently preferred as decoration. However, people may find it challenging to choose.
             There are so many options, and it's hard to find a compatible option. In our article, we
             will tell you how to choose a suitable tile for your walls.
+          </p>
+          <h2>What Kind Of Tile Models Can I Cover With The Walls?</h2>
+          <p>
+            There is no restriction when choosing Wall tiles. You can cover with any type of model.
+            The main thing is your budget and what kind of look you want. You should also look at
+            the rest of your rooms and choose a compatible model. You can choose ceramic wall tiles
+            or decorative wall tiles.
+          </p>
+          <h2>What Should I Pay Attention To When Choosing?</h2>
+          <p>
+            There are a few things you can look at when researching decorative wall tiles.
+            <ul>
+              <li>
+                The quality of the product is essential. An inferior quality product will disappoint
+                you. We want to say that all products on our site are of high quality.
+              </li>
+              <li>
+                You should take care of the rest of your room, bathroom, or kitchen. Harmony is, of
+                course, essential, and this is the only way to achieve harmony.
+              </li>
+              <li>
+                You have to be careful about what kind of color you want. After you decide on the
+                color, you can decide which material to use.
+              </li>
+              <li>
+                It is crucial in patterns. You can also choose patterned wall tiles. Or if you want
+                a wood look, you have to decide what pattern the wood will look like.
+              </li>
+            </ul>
+          </p>
+          <h2>Which Models And Patterns Can You Choose?</h2>
+          <p>
+            There are so many models and patterns you can choose from. When choosing, you should pay
+            attention to which area you will use. For example, it would be very logical to choose
+            ceramic wall tiles in the bathroom because ceramic does not produce bacteria in the face
+            of moisture.
+          </p>
+          <p>
+            You can also choose wood-looking tile. Wood is highly preferred in recent years. Experts
+            and most people believe that wood makes the environment look better. It is highly
+            compatible with modern and classic looks. You can use wood for any purpose.
+          </p>
+          <p>
+            Would you like to add a very high-quality atmosphere to the environment? We have a model
+            suggestion that is not known very often. It is especially preferred in sculpture.
+            <Link href="https://www.marblesystems.com/marble-tile/"> Carrara marble </Link>
+            has an extensive usage area. Even products such as fireplaces or tables can be made with
+            Carrara marble. If you have a living room in light tones, or if you want to compliment
+            the dark tones with a light tone, you can choose Carrara marble. It generally has a
+            white background and has homogeneously distributed patterns on it.
+          </p>
+          <p>
+            We have another suggestion that you can prefer as a backsplash. Mosaic wall tiles can
+            add the difference to rooms and areas such as bathrooms, kitchens. You can make your
+            home different from the usual by choosing mosaic wall tiles, incredibly different
+            colors. Mosaic is a model that never goes out of fashion. You can find it in many colors
+            and models. You will see that there are too many products on our site. Moreover, it is
+            not a very expensive product. We're sure you can find one that fits your budget.
+          </p>
+          <h2>Mirror Wall Tiles</h2>
+          <p>
+            {" "}
+            Mirror wall <Link href="https://www.marblesystems.com/coastal/"> tiles </Link> are one
+            of our most assertive suggestions. You ask why? Because it works very well in narrow and
+            dark areas. It reflects the light and makes your dark rooms much brighter. At the same
+            time, it has the feature of making it look more prominent in smaller rooms. You can find
+            mirror wall tiles in both light and dark colors. You can create unity or contrast with
+            tiles of different colors and sizes. You may prefer dark colors, especially on the floor
+            and light walls. You can take advantage of the harmony of white and black.{" "}
+          </p>
+          <p>
+            However, if you do not want to deal with all of these, if you want to buy a single model
+            and your room will be beautiful, your choice should be patterned wall tiles. Many
+            different colors and patterns can be found in a single tile. In this way, you get fit as
+            if you made different choices. Moreover, generally, these tiles are created by choosing
+            compatible colors. Don't forget to choose between light and dark colors! We want to say
+            that light colors will make your rooms look brighter and more expansive.
+          </p>
+          <p>
+            {" "}
+            However, if you do not have trouble with the area, you can easily choose dark colors.
+            Dark colors started to be used, especially by young people. Many people think that dark
+            colors look more elegant and luxurious. There are also many different colors on our
+            site. If you want to make a difference, you can choose colors such as orange, green,
+            blue, or even pink. You may need to change your rooms from beginning to end to choose
+            such colors, but this will not be a problem for you if you are creating a room
+            initially.
           </p>
         </div>
       </main>
