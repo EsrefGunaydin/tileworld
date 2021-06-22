@@ -1,5 +1,6 @@
 {
   "/": "pages/index.html",
+  "/navbar": "pages/navbar.html",
   "/walltiles": "pages/walltiles.html",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",

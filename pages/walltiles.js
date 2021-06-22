@@ -14,6 +14,7 @@ export default function WallTiles() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <navbar />
         <div className="container">
           <p>
             Covering the walls with tile lately is not only specific to bathrooms. It is now
