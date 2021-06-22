@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "./navbar";
 
 export default function WallTiles() {
   return (
@@ -14,7 +15,7 @@ export default function WallTiles() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <navbar />
+        <Navbar />
         <div className="container">
           <p>
             Covering the walls with tile lately is not only specific to bathrooms. It is now
