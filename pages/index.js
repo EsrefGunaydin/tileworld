@@ -34,7 +34,7 @@ export default function Home() {
             of creating a sleek, modern kitchen. Quartz is resistant to stains and scratches - which
             makes it the most sought-after countertop material on the market! There are many
             different colors of quartz available; however white will go with any color scheme in
-            your kitchen.
+            your kitchen. White will never dissapoints.***
           </p>
         </figure>
 
