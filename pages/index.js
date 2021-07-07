@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container-fluid">
       <Head>
-        <title>Create Next App</title>
+        <title>Tile World</title>
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
           rel="stylesheet"
